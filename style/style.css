@@ -1,0 +1,163 @@
+body{
+    background-color: #F7F0E8;
+}
+
+
+/* NavBar */
+header{
+    background-color: #B9A89A;
+    justify-content: space-between;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+nav{
+    margin-right: 6%;
+    gap: 80px;
+}
+
+button {
+    height:30px;
+    width: 30px;
+    background-color: #B9A89A;
+}
+
+/* Main Recepção */
+.main-recepcao{
+    margin: 13%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6%;
+}
+
+.text-main{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.main-recepcao h1{
+    font-size: 30px;
+}
+
+.main-recepcao p{
+    text-align: justify;
+}
+
+.main-recepcao img{
+    height: 40%;
+    width: 40%;
+}
+
+
+/* Section Pagamentos */
+.section-pagamento{
+    margin: 7%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6%;
+}
+
+.text-pagamento{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.section-list{
+    list-style:none;
+}
+
+.section-pagamento li{
+    background-color: #D6C6B8;
+    margin-bottom: 10px;
+    padding: 9px 10px;
+    border-radius: 5px;
+}
+
+.section-pagamento li i {
+  margin-right: 10px; 
+  font-size: 16px;
+}
+
+.text-pagamento h1{
+    font-size: 30px;
+}
+
+.section-pagamento img{
+    height:40% ;
+    width: 40%;
+}
+
+/* Section Comunicação */
+.section-comunicacao{
+    margin: 13%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6%;
+}
+
+.text-comunicacao{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.text-comunicacao h1{
+    font-size: 30px;
+}
+
+.text-comunicacao p{
+    text-align: justify;
+}
+
+.section-comunicacao img{
+    height: 40%;
+    width: 40%;
+}
+
+/* Section Ensino Incompleto */
+
+.section-ensino{
+    margin: 13%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6%;
+}
+
+.text-ensino{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.text-ensino h1{
+    font-size: 30px;
+}
+
+.text-ensino p{
+    text-align: justify;
+}
+
+.section-ensino img{
+    height: 40%;
+    width: 40%;
+}
+
+footer{
+    background-color: #B9A89A;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.text-footer{
+    position: absolute;
+    left: 45%;
+}

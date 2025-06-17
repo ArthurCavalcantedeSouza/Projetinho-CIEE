@@ -4,47 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="reset.css">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/reset.css">
+
+    <!-- Import -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
 </head>
 <body>
     <header>
+         <img src="image/logo.png" alt="Logo">
         <nav>
-            <img src="image/logo.png" alt="Logo">
-            <button><img src="image/frame/Home.png" alt=""></button>
+            <button><i class="fa-solid fa-house"></i></button>
         </nav>
     </header>
-    <main>
-        <h1>Recepção e atendimento</h1>
-        <p>Jovens aprendizes e recepcionistas de 18 a 24 anos, com competências comunicativas, facilidade de trabalho em público, experiência com organização e controle. Pré inicio com 2 semanas de treinamento e capacitação para desenvolver habilidades sociais.</p>
+    <main class="main-recepcao">
+        <div class="text-main">
+            <h1>Recepção e atendimento</h1>
+            <p>Jovens aprendizes e recepcionistas de 18 a 24 anos, com competências comunicativas, facilidade de trabalho em público, experiência com organização e controle. Pré inicio com 2 semanas de treinamento e capacitação para desenvolver habilidades sociais.</p>
+        </div>
         <img src="image/ciee.png" alt="">
     </main>
-    <section>
-        <div>
+     <!-- Section Pagamentos -->
+    <section class="section-pagamento">
+         <img src="image/beneficios.png" alt="">
+        <div class="text-pagamento">
             <h1>Alterações folha de pagamento e benefícios</h1>
-            <p>Rever a folha de pagamento dos funcionários propondo novos benefícios.</p>
+            <p>Rever a folha de pagamento dos funcionários propondo novos benefícios.</p>   
+            <ul class="section-list">
+                <li><i class="fa-solid fa-burger"></i>Vale Refeição</li>
+                <li><i class="fa-solid fa-people-roof"></i>Seguro de vida</li>
+                <li><i class="fa-solid fa-sleigh"></i>Cesta básica de Natal</li>
+                <li><i class="fa-solid fa-person-breastfeeding"></i>Auxílio maternidade</li>
+                <li><i class="fa-solid fa-dumbbell"></i>Gympass</li>
+                <li><i class="fa-solid fa-hotel"></i>Descontos no hotel </li>
+            </ul>
         </div>
-        <ul>
-            <li>Vale Refeição</li>
-            <li>Seguro de vida</li>
-            <li>Cesta básica de Natal</li>
-            <li>Auxílio maternidade</li>
-            <li>Gympass</li>
-            <li>Descontos no hotel </li>
-        </ul>
-        <img src="image/beneficios.png" alt="">
     </section>
-    <section>
-        <div>
+    <!-- Section Comunicação  -->
+    <section class="section-comunicacao">
+        <div class="text-comunicacao">
             <h1>Comunicação institucional </h1>
             <p> incluir comunicação institucional ou interna, criar canais de comunicação com as equipes para alinhar e aproximar os funcionários com os objetivos, atualizações e novidades da empresa
  Motivando, estimulando e promovendo ideias da empresa.</p>
         </div>
         <img src="image/empresario.png" alt="">
     </section>
-    <section>
+    <section class="section-ensino">
         <img src="image/limpeza.png" alt="">
-        <div>
+        <div class = "text-ensino">
             <h1>Ensino incompleto</h1>
             <p>Funcionários da limpeza recebem um auxílio estudo para terminar os ensinos e fazer faculdade, cursos técnicos ajudando na formação e inclusão no mercado de trabalho
             </p>
@@ -52,7 +62,7 @@
     </section>
     <footer>
         <img src="image/logo.png" alt="">
-        <p></p>
+        <div class ="text-footer"><p>@ Todos os direitos reservados</p></div>
     </footer>
 </body>
 </html>
