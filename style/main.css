@@ -1,0 +1,94 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    background-color: #d9c5b3;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+    background-color: #d9c5b3;
+    padding: 15px 30px;
+}
+
+header nav img {
+    height: 100px;
+}
+
+/* Main */
+main aside {
+    position: relative;
+    width: 100%;
+    height: 85vh;
+    overflow: hidden;
+}
+
+main aside img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block; 
+}
+
+/* Caixa de texto e botão */
+.caixa-texto {
+    margin-left: 10%;
+    position: absolute;
+    top: 30%;
+    right: 50%;
+    background-color: #d9c5b3;
+    padding: 40px 50px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 5px rgba(0,0,0,0.6);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.caixa-texto p {
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Botão */
+.caixa-texto button {
+    background-color: #f2e9df;
+    color: black;
+    border: none;
+    padding: 8px 25px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.caixa-texto button:hover {
+    background-color: #e1d5c8;
+}
+
+/* Footer */
+footer{
+    background-color: #B9A89A;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.text-footer{
+    position: absolute;
+    left: 45%;
+}
+
+footer img{
+    height: 100px;
+}
+
